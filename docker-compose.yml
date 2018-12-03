@@ -1,0 +1,7 @@
+version: "2"
+services:
+  web:
+    image: finance/web:test
+    container_name: finance_web_test
+    ports:
+      - 8081:80

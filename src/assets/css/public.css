@@ -1,0 +1,62 @@
+*{
+  -webkit-tap-highlight-color:rgba(0,0,0,0);
+  outline:none;
+  /* font-family: 'Microsoft YaHei', Helvetica, Arial, sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+html {
+  font-size: 62.5%;
+}
+html, body {
+  height: 100%;
+}
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td 
+{
+  margin:0;padding:0;
+}
+ul, ol {
+  list-style:none;
+}  
+a {
+  text-decoration:none;
+}  
+a:hover {
+  text-decoration:underline;
+}
+.table td, .table th {
+  text-align: center;
+  vertical-align: middle !important;
+  padding: 2px 5px;
+}
+.table-bordered thead th, .table-bordered thead td {
+  border-bottom-width: 1px;
+}
+.hidden {
+  display: none !important;
+}
+.clearfix:before,.clearfix:after {
+  display: table;
+  content: "";
+}
+.clearfix:after{
+  clear: both;
+}
+/* 兼容IE678 */
+.clearfix {
+  *zoom: 1;
+}
+
+.public-container {
+  height: 100% !important;
+}
+/* element-ui 分页控件居中 */
+.el-pagination {
+  padding: 20px 0;
+  text-align: center;
+}
+
+h4.public_title {
+  font-weight: bold;
+  font-size: 20px !important;
+}
